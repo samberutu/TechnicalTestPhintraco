@@ -7,18 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA05C4EE29B36965004C8D30 /* CatchPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05C4ED29B36965004C8D30 /* CatchPokemon.swift */; };
+		EA05C50F29B3A9E2004C8D30 /* MyPKMListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05C50E29B3A9E2004C8D30 /* MyPKMListView.swift */; };
+		EA05C51129B3A9FB004C8D30 /* MyPKMCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05C51029B3A9FB004C8D30 /* MyPKMCard.swift */; };
+		EA05C51329B3D559004C8D30 /* MyPKMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05C51229B3D559004C8D30 /* MyPKMModel.swift */; };
+		EA3DB4CC29B3DACD00F53D18 /* PKMLocaleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4CB29B3DACD00F53D18 /* PKMLocaleRepository.swift */; };
+		EA3DB4D029B3DB5900F53D18 /* MyPKMData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4CE29B3DB5900F53D18 /* MyPKMData.xcdatamodeld */; };
+		EA3DB4D229B3FD2300F53D18 /* PKMCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4D129B3FD2300F53D18 /* PKMCardModel.swift */; };
+		EA3DB4D429B40CDB00F53D18 /* PKMListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4D329B40CDB00F53D18 /* PKMListInteractor.swift */; };
+		EA3DB4D629B40D4900F53D18 /* RemoteUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4D529B40D4900F53D18 /* RemoteUsecase.swift */; };
+		EA3DB4D829B40E1C00F53D18 /* PKMDetailInteraktor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4D729B40E1C00F53D18 /* PKMDetailInteraktor.swift */; };
+		EA3DB4DA29B4201300F53D18 /* PKMLocaleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4D929B4201300F53D18 /* PKMLocaleDataSource.swift */; };
+		EA3DB4DC29B422BD00F53D18 /* LocaleUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4DB29B422BD00F53D18 /* LocaleUsecase.swift */; };
+		EA3DB4DE29B429EE00F53D18 /* MyPKMListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4DD29B429EE00F53D18 /* MyPKMListPresenter.swift */; };
+		EA3DB4E029B42AEB00F53D18 /* MyPKMListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4DF29B42AEB00F53D18 /* MyPKMListInteractor.swift */; };
+		EA3DB4E229B436F600F53D18 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB4E129B436F600F53D18 /* Helper.swift */; };
+		EA770DD829B47FE5008D2E49 /* EditPokemonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA770DD729B47FE5008D2E49 /* EditPokemonPopupView.swift */; };
 		EA82B10029B21FC900243E1C /* Technical_Test_PhintracoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B0FF29B21FC900243E1C /* Technical_Test_PhintracoApp.swift */; };
-		EA82B10229B21FC900243E1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B10129B21FC900243E1C /* ContentView.swift */; };
+		EA82B10229B21FC900243E1C /* PKMListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B10129B21FC900243E1C /* PKMListView.swift */; };
 		EA82B10429B21FCA00243E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA82B10329B21FCA00243E1C /* Assets.xcassets */; };
 		EA82B10729B21FCA00243E1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA82B10629B21FCA00243E1C /* Preview Assets.xcassets */; };
+		EA82B12029B221E700243E1C /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B11F29B221E700243E1C /* AppTabView.swift */; };
+		EA82B12329B223BC00243E1C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EA82B12229B223BC00243E1C /* .swiftlint.yml */; };
+		EA82B12629B2256100243E1C /* PKMCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B12529B2256100243E1C /* PKMCard.swift */; };
+		EA82B12829B225BA00243E1C /* GetDeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B12729B225BA00243E1C /* GetDeviceSize.swift */; };
+		EA82B12B29B2261B00243E1C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EA82B12A29B2261B00243E1C /* Alamofire */; };
+		EA82B12E29B2264800243E1C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EA82B12D29B2264800243E1C /* SDWebImageSwiftUI */; };
+		EA82B13029B22F4C00243E1C /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B12F29B22F4C00243E1C /* StatModel.swift */; };
+		EA82B13229B22F6700243E1C /* PKMListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B13129B22F6700243E1C /* PKMListModel.swift */; };
+		EA82B13429B22F7D00243E1C /* PKMDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B13329B22F7D00243E1C /* PKMDetailModel.swift */; };
+		EA82B13629B22FAA00243E1C /* PKMFlavorTextEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B13529B22FAA00243E1C /* PKMFlavorTextEntries.swift */; };
+		EA82B13929B2303E00243E1C /* PKMCardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B13829B2303E00243E1C /* PKMCardPresenter.swift */; };
+		EA82B13C29B23C6B00243E1C /* PKMListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B13B29B23C6B00243E1C /* PKMListPresenter.swift */; };
+		EA82B15229B244B000243E1C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B13F29B244AE00243E1C /* Poppins-Italic.ttf */; };
+		EA82B15429B244B000243E1C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14129B244AF00243E1C /* OFL.txt */; };
+		EA82B15529B244B000243E1C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14229B244AF00243E1C /* Poppins-Light.ttf */; };
+		EA82B15629B244B000243E1C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14329B244AF00243E1C /* Poppins-Bold.ttf */; };
+		EA82B15729B244B000243E1C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14429B244AF00243E1C /* Poppins-SemiBoldItalic.ttf */; };
+		EA82B15929B244B000243E1C /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14629B244AF00243E1C /* Poppins-ThinItalic.ttf */; };
+		EA82B15A29B244B000243E1C /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14729B244AF00243E1C /* Poppins-LightItalic.ttf */; };
+		EA82B15B29B244B000243E1C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14829B244AF00243E1C /* Poppins-Regular.ttf */; };
+		EA82B15C29B244B000243E1C /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14929B244AF00243E1C /* Poppins-ExtraLight.ttf */; };
+		EA82B15D29B244B000243E1C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14A29B244AF00243E1C /* Poppins-Medium.ttf */; };
+		EA82B15E29B244B000243E1C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14B29B244B000243E1C /* Poppins-ExtraBold.ttf */; };
+		EA82B16029B244B000243E1C /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14D29B244B000243E1C /* Poppins-Thin.ttf */; };
+		EA82B16129B244B000243E1C /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14E29B244B000243E1C /* Poppins-Black.ttf */; };
+		EA82B16229B244B000243E1C /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B14F29B244B000243E1C /* Poppins-BlackItalic.ttf */; };
+		EA82B16329B244B000243E1C /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B15029B244B000243E1C /* Poppins-ExtraBoldItalic.ttf */; };
+		EA82B16429B244B000243E1C /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA82B15129B244B000243E1C /* Poppins-ExtraLightItalic.ttf */; };
+		EA82B16629B244CB00243E1C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B16529B244CB00243E1C /* FontManager.swift */; };
+		EA82B16829B244D600243E1C /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B16729B244D600243E1C /* ColorManager.swift */; };
+		EA82B16A29B244E800243E1C /* PKMTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B16929B244E800243E1C /* PKMTypeManager.swift */; };
+		EA82B16C29B244F700243E1C /* PKMStatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B16B29B244F700243E1C /* PKMStatManager.swift */; };
+		EA82B16E29B2450400243E1C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B16D29B2450400243E1C /* AlertHelper.swift */; };
+		EA82B17229B245A700243E1C /* PKMDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17129B245A700243E1C /* PKMDetailView.swift */; };
+		EA82B17429B245C000243E1C /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17329B245C000243E1C /* StatView.swift */; };
+		EA82B17629B245D000243E1C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17529B245D000243E1C /* AboutView.swift */; };
+		EA82B17829B245E100243E1C /* PokemonTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17729B245E100243E1C /* PokemonTypeView.swift */; };
+		EA82B17A29B248F500243E1C /* PKMDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17929B248F500243E1C /* PKMDetailPresenter.swift */; };
+		EA82B17C29B24C0300243E1C /* RouteToDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17B29B24C0300243E1C /* RouteToDetailview.swift */; };
+		EA82B17E29B2673B00243E1C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17D29B2673B00243E1C /* NetworkService.swift */; };
+		EA82B18029B2679600243E1C /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B17F29B2679600243E1C /* NetworkLogger.swift */; };
+		EA82B18229B267BC00243E1C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18129B267BC00243E1C /* NetworkError.swift */; };
+		EA82B18429B267E600243E1C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18329B267E600243E1C /* Endpoint.swift */; };
+		EA82B18629B2680C00243E1C /* PokemonEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18529B2680C00243E1C /* PokemonEndpoint.swift */; };
+		EA82B18829B2689E00243E1C /* PKMResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18729B2689E00243E1C /* PKMResponseMapper.swift */; };
+		EA82B18B29B268D500243E1C /* PKMListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18A29B268D500243E1C /* PKMListResponse.swift */; };
+		EA82B18D29B2692900243E1C /* PKMDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18C29B2692900243E1C /* PKMDetailResponse.swift */; };
+		EA82B18F29B26AF200243E1C /* PKMFlavorTextEntriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82B18E29B26AF200243E1C /* PKMFlavorTextEntriesResponse.swift */; };
+		EAA565D429B286AE000CBEBD /* PKMRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA565D329B286AE000CBEBD /* PKMRemoteRepository.swift */; };
+		EAA565D629B28C89000CBEBD /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA565D529B28C89000CBEBD /* Injection.swift */; };
+		EAA565D829B28E42000CBEBD /* FetchPokemonEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA565D729B28E42000CBEBD /* FetchPokemonEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA05C4ED29B36965004C8D30 /* CatchPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchPokemon.swift; sourceTree = "<group>"; };
+		EA05C50E29B3A9E2004C8D30 /* MyPKMListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPKMListView.swift; sourceTree = "<group>"; };
+		EA05C51029B3A9FB004C8D30 /* MyPKMCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPKMCard.swift; sourceTree = "<group>"; };
+		EA05C51229B3D559004C8D30 /* MyPKMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPKMModel.swift; sourceTree = "<group>"; };
+		EA3DB4CB29B3DACD00F53D18 /* PKMLocaleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMLocaleRepository.swift; sourceTree = "<group>"; };
+		EA3DB4CF29B3DB5900F53D18 /* MyPKMData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPKMData.xcdatamodel; sourceTree = "<group>"; };
+		EA3DB4D129B3FD2300F53D18 /* PKMCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMCardModel.swift; sourceTree = "<group>"; };
+		EA3DB4D329B40CDB00F53D18 /* PKMListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMListInteractor.swift; sourceTree = "<group>"; };
+		EA3DB4D529B40D4900F53D18 /* RemoteUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUsecase.swift; sourceTree = "<group>"; };
+		EA3DB4D729B40E1C00F53D18 /* PKMDetailInteraktor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMDetailInteraktor.swift; sourceTree = "<group>"; };
+		EA3DB4D929B4201300F53D18 /* PKMLocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMLocaleDataSource.swift; sourceTree = "<group>"; };
+		EA3DB4DB29B422BD00F53D18 /* LocaleUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleUsecase.swift; sourceTree = "<group>"; };
+		EA3DB4DD29B429EE00F53D18 /* MyPKMListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPKMListPresenter.swift; sourceTree = "<group>"; };
+		EA3DB4DF29B42AEB00F53D18 /* MyPKMListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPKMListInteractor.swift; sourceTree = "<group>"; };
+		EA3DB4E129B436F600F53D18 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EA770DD729B47FE5008D2E49 /* EditPokemonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPokemonPopupView.swift; sourceTree = "<group>"; };
 		EA82B0FC29B21FC900243E1C /* Technical Test Phintraco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technical Test Phintraco.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA82B0FF29B21FC900243E1C /* Technical_Test_PhintracoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technical_Test_PhintracoApp.swift; sourceTree = "<group>"; };
-		EA82B10129B21FC900243E1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA82B10129B21FC900243E1C /* PKMListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMListView.swift; sourceTree = "<group>"; };
 		EA82B10329B21FCA00243E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA82B10629B21FCA00243E1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA82B11F29B221E700243E1C /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		EA82B12229B223BC00243E1C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		EA82B12429B2250000243E1C /* Technical-Test-Phintraco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Technical-Test-Phintraco-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EA82B12529B2256100243E1C /* PKMCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMCard.swift; sourceTree = "<group>"; };
+		EA82B12729B225BA00243E1C /* GetDeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDeviceSize.swift; sourceTree = "<group>"; };
+		EA82B12F29B22F4C00243E1C /* StatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatModel.swift; sourceTree = "<group>"; };
+		EA82B13129B22F6700243E1C /* PKMListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMListModel.swift; sourceTree = "<group>"; };
+		EA82B13329B22F7D00243E1C /* PKMDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMDetailModel.swift; sourceTree = "<group>"; };
+		EA82B13529B22FAA00243E1C /* PKMFlavorTextEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMFlavorTextEntries.swift; sourceTree = "<group>"; };
+		EA82B13829B2303E00243E1C /* PKMCardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMCardPresenter.swift; sourceTree = "<group>"; };
+		EA82B13B29B23C6B00243E1C /* PKMListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMListPresenter.swift; sourceTree = "<group>"; };
+		EA82B13F29B244AE00243E1C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		EA82B14029B244AF00243E1C /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EA82B14129B244AF00243E1C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EA82B14229B244AF00243E1C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		EA82B14329B244AF00243E1C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		EA82B14429B244AF00243E1C /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EA82B14529B244AF00243E1C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EA82B14629B244AF00243E1C /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EA82B14729B244AF00243E1C /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		EA82B14829B244AF00243E1C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		EA82B14929B244AF00243E1C /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		EA82B14A29B244AF00243E1C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EA82B14B29B244B000243E1C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EA82B14C29B244B000243E1C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		EA82B14D29B244B000243E1C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		EA82B14E29B244B000243E1C /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		EA82B14F29B244B000243E1C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EA82B15029B244B000243E1C /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EA82B15129B244B000243E1C /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		EA82B16529B244CB00243E1C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		EA82B16729B244D600243E1C /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		EA82B16929B244E800243E1C /* PKMTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMTypeManager.swift; sourceTree = "<group>"; };
+		EA82B16B29B244F700243E1C /* PKMStatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMStatManager.swift; sourceTree = "<group>"; };
+		EA82B16D29B2450400243E1C /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		EA82B17129B245A700243E1C /* PKMDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMDetailView.swift; sourceTree = "<group>"; };
+		EA82B17329B245C000243E1C /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		EA82B17529B245D000243E1C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		EA82B17729B245E100243E1C /* PokemonTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTypeView.swift; sourceTree = "<group>"; };
+		EA82B17929B248F500243E1C /* PKMDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMDetailPresenter.swift; sourceTree = "<group>"; };
+		EA82B17B29B24C0300243E1C /* RouteToDetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteToDetailview.swift; sourceTree = "<group>"; };
+		EA82B17D29B2673B00243E1C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EA82B17F29B2679600243E1C /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		EA82B18129B267BC00243E1C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EA82B18329B267E600243E1C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		EA82B18529B2680C00243E1C /* PokemonEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEndpoint.swift; sourceTree = "<group>"; };
+		EA82B18729B2689E00243E1C /* PKMResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMResponseMapper.swift; sourceTree = "<group>"; };
+		EA82B18A29B268D500243E1C /* PKMListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMListResponse.swift; sourceTree = "<group>"; };
+		EA82B18C29B2692900243E1C /* PKMDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMDetailResponse.swift; sourceTree = "<group>"; };
+		EA82B18E29B26AF200243E1C /* PKMFlavorTextEntriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMFlavorTextEntriesResponse.swift; sourceTree = "<group>"; };
+		EAA565D329B286AE000CBEBD /* PKMRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKMRemoteRepository.swift; sourceTree = "<group>"; };
+		EAA565D529B28C89000CBEBD /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		EAA565D729B28E42000CBEBD /* FetchPokemonEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPokemonEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,15 +162,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA82B12E29B2264800243E1C /* SDWebImageSwiftUI in Frameworks */,
+				EA82B12B29B2261B00243E1C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA05C50B29B3A9B1004C8D30 /* MyPKMList */ = {
+			isa = PBXGroup;
+			children = (
+				EA05C50D29B3A9C4004C8D30 /* Presenter */,
+				EA05C50C29B3A9BD004C8D30 /* View */,
+			);
+			path = MyPKMList;
+			sourceTree = "<group>";
+		};
+		EA05C50C29B3A9BD004C8D30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA05C50E29B3A9E2004C8D30 /* MyPKMListView.swift */,
+				EA05C51029B3A9FB004C8D30 /* MyPKMCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA05C50D29B3A9C4004C8D30 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA3DB4DD29B429EE00F53D18 /* MyPKMListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EA3DB4CD29B3DAF300F53D18 /* LocaleDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EA3DB4CE29B3DB5900F53D18 /* MyPKMData.xcdatamodeld */,
+				EA3DB4D929B4201300F53D18 /* PKMLocaleDataSource.swift */,
+			);
+			path = LocaleDataSource;
+			sourceTree = "<group>";
+		};
 		EA82B0F329B21FC900243E1C = {
 			isa = PBXGroup;
 			children = (
+				EA82B12229B223BC00243E1C /* .swiftlint.yml */,
 				EA82B0FE29B21FC900243E1C /* Technical Test Phintraco */,
 				EA82B0FD29B21FC900243E1C /* Products */,
 			);
@@ -51,8 +225,10 @@
 		EA82B0FE29B21FC900243E1C /* Technical Test Phintraco */ = {
 			isa = PBXGroup;
 			children = (
-				EA82B0FF29B21FC900243E1C /* Technical_Test_PhintracoApp.swift */,
-				EA82B10129B21FC900243E1C /* ContentView.swift */,
+				EA82B12429B2250000243E1C /* Technical-Test-Phintraco-Info.plist */,
+				EA82B10F29B2203000243E1C /* App */,
+				EA82B10E29B2202700243E1C /* Core */,
+				EA82B10D29B2201C00243E1C /* Module */,
 				EA82B10329B21FCA00243E1C /* Assets.xcassets */,
 				EA82B10529B21FCA00243E1C /* Preview Content */,
 			);
@@ -67,6 +243,269 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EA82B10D29B2201C00243E1C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EA05C50B29B3A9B1004C8D30 /* MyPKMList */,
+				EA82B11229B2206100243E1C /* Router */,
+				EA82B11129B2204D00243E1C /* PKMList */,
+				EA82B11029B2204300243E1C /* PKMDetail */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EA82B10E29B2202700243E1C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B11629B2208D00243E1C /* Data */,
+				EA82B11529B2208500243E1C /* Utils */,
+				EA82B11429B2207B00243E1C /* Domain */,
+				EA82B11329B2207400243E1C /* DI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EA82B10F29B2203000243E1C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B0FF29B21FC900243E1C /* Technical_Test_PhintracoApp.swift */,
+				EA82B11F29B221E700243E1C /* AppTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EA82B11029B2204300243E1C /* PKMDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B17029B2459600243E1C /* Presenter */,
+				EA82B16F29B2458F00243E1C /* View */,
+			);
+			path = PKMDetail;
+			sourceTree = "<group>";
+		};
+		EA82B11129B2204D00243E1C /* PKMList */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B13A29B23C2900243E1C /* View */,
+				EA82B13729B2302300243E1C /* Presenter */,
+			);
+			path = PKMList;
+			sourceTree = "<group>";
+		};
+		EA82B11229B2206100243E1C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B17B29B24C0300243E1C /* RouteToDetailview.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EA82B11329B2207400243E1C /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				EAA565D529B28C89000CBEBD /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		EA82B11429B2207B00243E1C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B11E29B220FD00243E1C /* Model */,
+				EA82B11D29B220F300243E1C /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EA82B11529B2208500243E1C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B13E29B2444A00243E1C /* Helper */,
+				EA82B13D29B2443900243E1C /* Font */,
+				EA82B11C29B220DD00243E1C /* Mapper */,
+				EA82B11B29B220D600243E1C /* View */,
+				EA82B11A29B220C200243E1C /* Extension */,
+				EA82B11929B220B500243E1C /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA82B11629B2208D00243E1C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B11829B2209D00243E1C /* Remote */,
+				EA82B11729B2209700243E1C /* Locale */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EA82B11729B2209700243E1C /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				EA3DB4CD29B3DAF300F53D18 /* LocaleDataSource */,
+				EA3DB4CB29B3DACD00F53D18 /* PKMLocaleRepository.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		EA82B11829B2209D00243E1C /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B18929B268BF00243E1C /* Response */,
+				EA82B17D29B2673B00243E1C /* NetworkService.swift */,
+				EAA565D329B286AE000CBEBD /* PKMRemoteRepository.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		EA82B11929B220B500243E1C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B17F29B2679600243E1C /* NetworkLogger.swift */,
+				EA82B18129B267BC00243E1C /* NetworkError.swift */,
+				EA82B18329B267E600243E1C /* Endpoint.swift */,
+				EA82B18529B2680C00243E1C /* PokemonEndpoint.swift */,
+				EAA565D729B28E42000CBEBD /* FetchPokemonEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA82B11A29B220C200243E1C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EA82B11B29B220D600243E1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B12729B225BA00243E1C /* GetDeviceSize.swift */,
+				EA05C4ED29B36965004C8D30 /* CatchPokemon.swift */,
+				EA770DD729B47FE5008D2E49 /* EditPokemonPopupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA82B11C29B220DD00243E1C /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B18729B2689E00243E1C /* PKMResponseMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		EA82B11D29B220F300243E1C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				EA3DB4D329B40CDB00F53D18 /* PKMListInteractor.swift */,
+				EA3DB4D729B40E1C00F53D18 /* PKMDetailInteraktor.swift */,
+				EA3DB4D529B40D4900F53D18 /* RemoteUsecase.swift */,
+				EA3DB4DB29B422BD00F53D18 /* LocaleUsecase.swift */,
+				EA3DB4DF29B42AEB00F53D18 /* MyPKMListInteractor.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		EA82B11E29B220FD00243E1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B12F29B22F4C00243E1C /* StatModel.swift */,
+				EA82B13129B22F6700243E1C /* PKMListModel.swift */,
+				EA82B13329B22F7D00243E1C /* PKMDetailModel.swift */,
+				EA82B13529B22FAA00243E1C /* PKMFlavorTextEntries.swift */,
+				EA05C51229B3D559004C8D30 /* MyPKMModel.swift */,
+				EA3DB4D129B3FD2300F53D18 /* PKMCardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA82B13729B2302300243E1C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B13829B2303E00243E1C /* PKMCardPresenter.swift */,
+				EA82B13B29B23C6B00243E1C /* PKMListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EA82B13A29B23C2900243E1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B10129B21FC900243E1C /* PKMListView.swift */,
+				EA82B12529B2256100243E1C /* PKMCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA82B13D29B2443900243E1C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B14129B244AF00243E1C /* OFL.txt */,
+				EA82B14E29B244B000243E1C /* Poppins-Black.ttf */,
+				EA82B14F29B244B000243E1C /* Poppins-BlackItalic.ttf */,
+				EA82B14329B244AF00243E1C /* Poppins-Bold.ttf */,
+				EA82B14029B244AF00243E1C /* Poppins-BoldItalic.ttf */,
+				EA82B14B29B244B000243E1C /* Poppins-ExtraBold.ttf */,
+				EA82B15029B244B000243E1C /* Poppins-ExtraBoldItalic.ttf */,
+				EA82B14929B244AF00243E1C /* Poppins-ExtraLight.ttf */,
+				EA82B15129B244B000243E1C /* Poppins-ExtraLightItalic.ttf */,
+				EA82B13F29B244AE00243E1C /* Poppins-Italic.ttf */,
+				EA82B14229B244AF00243E1C /* Poppins-Light.ttf */,
+				EA82B14729B244AF00243E1C /* Poppins-LightItalic.ttf */,
+				EA82B14A29B244AF00243E1C /* Poppins-Medium.ttf */,
+				EA82B14529B244AF00243E1C /* Poppins-MediumItalic.ttf */,
+				EA82B14829B244AF00243E1C /* Poppins-Regular.ttf */,
+				EA82B14C29B244B000243E1C /* Poppins-SemiBold.ttf */,
+				EA82B14429B244AF00243E1C /* Poppins-SemiBoldItalic.ttf */,
+				EA82B14D29B244B000243E1C /* Poppins-Thin.ttf */,
+				EA82B14629B244AF00243E1C /* Poppins-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EA82B13E29B2444A00243E1C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B16529B244CB00243E1C /* FontManager.swift */,
+				EA82B16729B244D600243E1C /* ColorManager.swift */,
+				EA82B16929B244E800243E1C /* PKMTypeManager.swift */,
+				EA82B16B29B244F700243E1C /* PKMStatManager.swift */,
+				EA82B16D29B2450400243E1C /* AlertHelper.swift */,
+				EA3DB4E129B436F600F53D18 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EA82B16F29B2458F00243E1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B17129B245A700243E1C /* PKMDetailView.swift */,
+				EA82B17329B245C000243E1C /* StatView.swift */,
+				EA82B17529B245D000243E1C /* AboutView.swift */,
+				EA82B17729B245E100243E1C /* PokemonTypeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA82B17029B2459600243E1C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B17929B248F500243E1C /* PKMDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EA82B18929B268BF00243E1C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EA82B18A29B268D500243E1C /* PKMListResponse.swift */,
+				EA82B18C29B2692900243E1C /* PKMDetailResponse.swift */,
+				EA82B18E29B26AF200243E1C /* PKMFlavorTextEntriesResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +513,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA82B10A29B21FCA00243E1C /* Build configuration list for PBXNativeTarget "Technical Test Phintraco" */;
 			buildPhases = (
+				EA82B12129B222F800243E1C /* SwiftLint */,
 				EA82B0F829B21FC900243E1C /* Sources */,
 				EA82B0F929B21FC900243E1C /* Frameworks */,
 				EA82B0FA29B21FC900243E1C /* Resources */,
@@ -83,6 +523,10 @@
 			dependencies = (
 			);
 			name = "Technical Test Phintraco";
+			packageProductDependencies = (
+				EA82B12A29B2261B00243E1C /* Alamofire */,
+				EA82B12D29B2264800243E1C /* SDWebImageSwiftUI */,
+			);
 			productName = "Technical Test Phintraco";
 			productReference = EA82B0FC29B21FC900243E1C /* Technical Test Phintraco.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +555,10 @@
 				Base,
 			);
 			mainGroup = EA82B0F329B21FC900243E1C;
+			packageReferences = (
+				EA82B12929B2261B00243E1C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EA82B12C29B2264800243E1C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = EA82B0FD29B21FC900243E1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,20 +573,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA82B15529B244B000243E1C /* Poppins-Light.ttf in Resources */,
+				EA82B15429B244B000243E1C /* OFL.txt in Resources */,
+				EA82B15B29B244B000243E1C /* Poppins-Regular.ttf in Resources */,
+				EA82B16329B244B000243E1C /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				EA82B16029B244B000243E1C /* Poppins-Thin.ttf in Resources */,
+				EA82B12329B223BC00243E1C /* .swiftlint.yml in Resources */,
+				EA82B16429B244B000243E1C /* Poppins-ExtraLightItalic.ttf in Resources */,
+				EA82B16129B244B000243E1C /* Poppins-Black.ttf in Resources */,
+				EA82B15929B244B000243E1C /* Poppins-ThinItalic.ttf in Resources */,
+				EA82B15629B244B000243E1C /* Poppins-Bold.ttf in Resources */,
+				EA82B15C29B244B000243E1C /* Poppins-ExtraLight.ttf in Resources */,
 				EA82B10729B21FCA00243E1C /* Preview Assets.xcassets in Resources */,
+				EA82B15729B244B000243E1C /* Poppins-SemiBoldItalic.ttf in Resources */,
+				EA82B15D29B244B000243E1C /* Poppins-Medium.ttf in Resources */,
+				EA82B16229B244B000243E1C /* Poppins-BlackItalic.ttf in Resources */,
+				EA82B15A29B244B000243E1C /* Poppins-LightItalic.ttf in Resources */,
+				EA82B15229B244B000243E1C /* Poppins-Italic.ttf in Resources */,
+				EA82B15E29B244B000243E1C /* Poppins-ExtraBold.ttf in Resources */,
 				EA82B10429B21FCA00243E1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EA82B12129B222F800243E1C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA82B0F829B21FC900243E1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA82B10229B21FC900243E1C /* ContentView.swift in Sources */,
+				EA82B18629B2680C00243E1C /* PokemonEndpoint.swift in Sources */,
+				EA3DB4DA29B4201300F53D18 /* PKMLocaleDataSource.swift in Sources */,
+				EA82B18029B2679600243E1C /* NetworkLogger.swift in Sources */,
+				EA82B12029B221E700243E1C /* AppTabView.swift in Sources */,
+				EA3DB4E029B42AEB00F53D18 /* MyPKMListInteractor.swift in Sources */,
+				EA82B17229B245A700243E1C /* PKMDetailView.swift in Sources */,
+				EA3DB4DE29B429EE00F53D18 /* MyPKMListPresenter.swift in Sources */,
+				EA82B17E29B2673B00243E1C /* NetworkService.swift in Sources */,
+				EA82B17829B245E100243E1C /* PokemonTypeView.swift in Sources */,
+				EA82B18D29B2692900243E1C /* PKMDetailResponse.swift in Sources */,
+				EA82B16C29B244F700243E1C /* PKMStatManager.swift in Sources */,
+				EAA565D429B286AE000CBEBD /* PKMRemoteRepository.swift in Sources */,
+				EA82B18F29B26AF200243E1C /* PKMFlavorTextEntriesResponse.swift in Sources */,
+				EA770DD829B47FE5008D2E49 /* EditPokemonPopupView.swift in Sources */,
+				EA82B13029B22F4C00243E1C /* StatModel.swift in Sources */,
+				EA3DB4D629B40D4900F53D18 /* RemoteUsecase.swift in Sources */,
+				EA3DB4D029B3DB5900F53D18 /* MyPKMData.xcdatamodeld in Sources */,
+				EA82B16A29B244E800243E1C /* PKMTypeManager.swift in Sources */,
+				EA82B16E29B2450400243E1C /* AlertHelper.swift in Sources */,
+				EA3DB4D229B3FD2300F53D18 /* PKMCardModel.swift in Sources */,
+				EA82B12829B225BA00243E1C /* GetDeviceSize.swift in Sources */,
+				EA82B13629B22FAA00243E1C /* PKMFlavorTextEntries.swift in Sources */,
+				EA82B18B29B268D500243E1C /* PKMListResponse.swift in Sources */,
+				EA82B13429B22F7D00243E1C /* PKMDetailModel.swift in Sources */,
+				EA82B17C29B24C0300243E1C /* RouteToDetailview.swift in Sources */,
+				EA82B13929B2303E00243E1C /* PKMCardPresenter.swift in Sources */,
+				EAA565D829B28E42000CBEBD /* FetchPokemonEndpoint.swift in Sources */,
+				EA05C51129B3A9FB004C8D30 /* MyPKMCard.swift in Sources */,
+				EA3DB4DC29B422BD00F53D18 /* LocaleUsecase.swift in Sources */,
+				EA3DB4D429B40CDB00F53D18 /* PKMListInteractor.swift in Sources */,
+				EA82B13C29B23C6B00243E1C /* PKMListPresenter.swift in Sources */,
+				EA82B17A29B248F500243E1C /* PKMDetailPresenter.swift in Sources */,
+				EA82B18429B267E600243E1C /* Endpoint.swift in Sources */,
+				EA05C50F29B3A9E2004C8D30 /* MyPKMListView.swift in Sources */,
+				EA05C4EE29B36965004C8D30 /* CatchPokemon.swift in Sources */,
+				EA82B16829B244D600243E1C /* ColorManager.swift in Sources */,
+				EA82B17429B245C000243E1C /* StatView.swift in Sources */,
+				EA3DB4CC29B3DACD00F53D18 /* PKMLocaleRepository.swift in Sources */,
+				EAA565D629B28C89000CBEBD /* Injection.swift in Sources */,
+				EA82B10229B21FC900243E1C /* PKMListView.swift in Sources */,
+				EA82B18229B267BC00243E1C /* NetworkError.swift in Sources */,
+				EA82B18829B2689E00243E1C /* PKMResponseMapper.swift in Sources */,
+				EA82B12629B2256100243E1C /* PKMCard.swift in Sources */,
+				EA82B13229B22F6700243E1C /* PKMListModel.swift in Sources */,
+				EA82B17629B245D000243E1C /* AboutView.swift in Sources */,
+				EA05C51329B3D559004C8D30 /* MyPKMModel.swift in Sources */,
+				EA82B16629B244CB00243E1C /* FontManager.swift in Sources */,
+				EA3DB4E229B436F600F53D18 /* Helper.swift in Sources */,
 				EA82B10029B21FC900243E1C /* Technical_Test_PhintracoApp.swift in Sources */,
+				EA3DB4D829B40E1C00F53D18 /* PKMDetailInteraktor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +804,12 @@
 				DEVELOPMENT_TEAM = 4LSFC8QX49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Technical-Test-Phintraco-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +817,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samlo.Technical-Test-Phintraco";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +837,12 @@
 				DEVELOPMENT_TEAM = 4LSFC8QX49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Technical-Test-Phintraco-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +850,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samlo.Technical-Test-Phintraco";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +881,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA82B12929B2261B00243E1C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EA82B12C29B2264800243E1C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA82B12A29B2261B00243E1C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA82B12929B2261B00243E1C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EA82B12D29B2264800243E1C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA82B12C29B2264800243E1C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EA3DB4CE29B3DB5900F53D18 /* MyPKMData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA3DB4CF29B3DB5900F53D18 /* MyPKMData.xcdatamodel */,
+			);
+			currentVersion = EA3DB4CF29B3DB5900F53D18 /* MyPKMData.xcdatamodel */;
+			path = MyPKMData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA82B0F429B21FC900243E1C /* Project object */;
 }
